@@ -1,4 +1,9 @@
 /**
+* Time:  O(max(m, n))
+* space: O(max(m, n))
+*/ 
+
+/**
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
@@ -11,7 +16,6 @@
 
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        
         ListNode head = null;
         ListNode tail = null;
         int carry = 0;
