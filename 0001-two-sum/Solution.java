@@ -1,3 +1,8 @@
+/**
+* Time:  O(n)
+* Space: O(n)
+*/
+
 import java.util.HashMap;
 
 class Solution {
